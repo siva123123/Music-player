@@ -1,0 +1,348 @@
+.split-column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body-tag {
+  border: 1px solid transparent;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+}
+
+.left-side {
+  border: 1px solid transparent;
+  height: auto;
+  width: 80%;
+  margin-left: 45px;
+}
+
+.img-fluid {
+  height: 338px;
+  width: 600px;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.left-bottom {
+  margin-left: 20px;
+}
+
+.button-play {
+  margin-left: 0px;
+  background-image: linear-gradient(to right, violet, rgb(76, 76, 184));
+}
+
+.music-bar {
+  width: "400px";
+  height: auto;
+}
+
+.play-list {
+  border: 1px solid rgb(107, 16, 125);
+  width: 100%;
+  height: 60px;
+  margin: 0px;
+  background-color: rgb(107, 16, 125);
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.play-number {
+  margin-top: 100px;
+  margin-left: 5px;
+  color: white;
+}
+
+.list-img1 {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 5px;
+  z-index: 0%;
+}
+
+.like-play {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 13px;
+  font-size: 25px;
+  color: white;
+}
+
+.like-play1 {
+  position: absolute;
+  margin-left: 89%;
+  margin-top: 13px;
+  font-size: 25px;
+  color: white;
+}
+
+.music-name {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  margin-top: -17px;
+  margin-left: 100px;
+}
+
+.right-side {
+  border: 1px solid transparent;
+  width: 15%;
+  height: auto;
+  margin-left: 0px;
+}
+
+.right-top {
+  margin-left: -180px;
+  color: white;
+}
+
+.text-view {
+  position: absolute;
+  margin-left: 100px;
+}
+
+.artist-list {
+  border: 1px solid transparent;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.artist-name {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.artist-menu {
+  position: absolute;
+  margin-left: 88%;
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.artist-time {
+  position: absolute;
+  margin-left: 87%;
+  margin-top: 34px;
+  font-size: 15px;
+  color: white;
+}
+
+.right-bottom {
+  border: 1px solid transparent;
+  width: 15%;
+  height: auto;
+  margin-left: 0px;
+}
+
+.right-recent {
+  margin-left: -178px;
+  color: white;
+}
+
+.recent-view {
+  position: absolute;
+  margin-left: 150px;
+}
+
+.play-recent {
+  border: 1px solid transparent;
+  width: auto;
+  height: 60px;
+  margin: 0px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.recent-number {
+  margin-top: 100px;
+  margin-left: 5px;
+  color: white;
+}
+
+.recent-name {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  margin-top: -17px;
+  margin-left: 70px;
+}
+
+.like-recent {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 13px;
+  font-size: 25px;
+  color: white;
+}
+
+.play-bar {
+  border: 1px solid transparent;
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  margin-top: -50px;
+}
+
+.audio-control {
+  border: 1px solid transparent;
+  height: 70px;
+  width: 100%;
+  margin-left: 43px;
+}
+
+.play-name {
+  color: white;
+  margin-left: 100px;
+  margin-top: -60px;
+}
+
+.play-like {
+  position: absolute;
+  color: white;
+  margin-top: -40px;
+  margin-left: 210px;
+}
+
+.button-holder {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.btn-shuffle {
+  position: absolute;
+  margin-top: -40px;
+  text-align: center;
+  margin-left: 600px;
+}
+
+.btn-backward {
+  position: absolute;
+  margin-top: -40px;
+  text-align: center;
+  margin-left: 650px;
+}
+
+.btn-play {
+  position: absolute;
+  margin-top: -40px;
+  text-align: center;
+  margin-left: 700px;
+}
+
+.btn-forward {
+  position: absolute;
+  margin-top: -40px;
+  text-align: center;
+  margin-left: 750px;
+}
+
+.btn-shuffle1 {
+  position: absolute;
+  margin-top: -40px;
+  text-align: center;
+  margin-left: 800px;
+}
+
+.line {
+  border: 1px solid white;
+  width: 500px;
+  height: 0px;
+  position: absolute;
+  margin-left: 32%;
+  margin-top: 0px;
+}
+
+.line1 {
+  border: 1px solid red;
+  border-radius: 1px;
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  margin-left: 32%;
+  margin-top: 0px;
+}
+
+.dot {
+  border-radius: 5px;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  position: absolute;
+  margin-left: 585px;
+  margin-top: -4px;
+}
+
+.play-marker {
+  position: absolute;
+  color: white;
+  margin-left: 430px;
+  margin-top: -8px;
+  font-size: 12px;
+}
+
+.play-marker1 {
+  position: absolute;
+  color: white;
+  margin-left: 990px;
+  margin-top: -8px;
+  font-size: 12px;
+}
+
+.btn-bar {
+  position: absolute;
+  margin-top: -30px;
+  text-align: center;
+  margin-left: 1100px;
+}
+
+.btn-computer {
+  position: absolute;
+  margin-top: -30px;
+  text-align: center;
+  margin-left: 1140px;
+}
+
+.btn-volume {
+  position: absolute;
+  margin-top: -30px;
+  text-align: center;
+  margin-left: 1180px;
+}
+
+.volume-line {
+  border: 1px solid white;
+  width: 100px;
+  height: 0;
+  position: absolute;
+  margin-top: -18px;
+  text-align: center;
+  margin-left: 1220px;
+}
+
+.volume-line1 {
+  border: 1px solid red;
+  width: 30px;
+  height: 0;
+  position: absolute;
+  margin-top: -18px;
+  text-align: center;
+  margin-left: 1220px;
+}
+
+.btn-expand {
+  position: absolute;
+  margin-top: -30px;
+  text-align: center;
+  margin-left: 1340px;
+}/*# sourceMappingURL=musicplayer.css.map */
